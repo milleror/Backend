@@ -19,6 +19,7 @@ return new class extends Migration
 			$table->string("tipodoc");
 			$table->string("documento");
 			$table->string("cargo");
+            $table->string("rol");
 			$table->timestamps();
 
         });
